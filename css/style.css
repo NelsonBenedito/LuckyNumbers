@@ -1,0 +1,135 @@
+* {
+    margin: 0rem;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    /* background-color:rgb(0, 101, 183); */
+    color: aliceblue;
+    list-style-type: none;
+
+}
+::-webkit-scrollbar {
+    width: 0.4rem;
+    height: 0rem;
+    background-color: rgba(143, 143, 143, 0);
+    border-radius: rem;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 1rem;
+    background-color:aliceblue;
+    border-radius: 1rem;
+}
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+button:disabled{
+    display: flex;
+    opacity: 50%;
+}
+button{
+    display: flex;
+    border: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 1rem;
+    background-color:rgb(0, 70, 128);
+
+}
+button:hover{
+    background-image: linear-gradient(to bottom ,rgba(0, 101, 183, 0),rgba(255, 166, 0, 0.47));
+    border: none;
+}
+.megasena-savedGame{
+    display: flex;
+}
+.numbers{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-inline:5rem;
+  justify-content:center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  overflow:scroll
+}
+.number{ display: flex;
+    flex-direction: column;
+    align-items: center;  
+    font-size: 3rem;      
+    height: 3rem;
+    width: 3rem;
+    padding:1rem;
+    background-color:rgb(0, 84, 152);
+    border-radius: 2rem;
+    cursor: pointer;
+    user-select: none;
+}
+.selected{
+    background-color: rgb(9, 9, 9);
+}
+
+.number:hover{
+    background-color:rgb(0, 70, 128);
+}
+.megasena-board{
+    display: flex;
+    height: 20rem;
+    /* background-color:rgb(0, 101, 183); */
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color:rgba(0, 70, 128, 0.622);
+
+}
+.head-title{
+    background-color: transparent;
+    padding: 1rem;
+}
+.megasena-btn{
+    margin-top: 1rem;
+    padding: 0rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
