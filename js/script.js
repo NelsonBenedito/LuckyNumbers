@@ -154,7 +154,7 @@ function createClearButton() {
   return button;
 }
 function clearMemory() {
-  window.localStorage.clear("saved-games");
+  localStorage.removeItem("saved-games");
   state.savedGames = [];
   render();
 }
