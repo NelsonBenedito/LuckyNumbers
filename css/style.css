@@ -47,6 +47,7 @@ header {
   background: var(--bg-color-default);
   filter: brightness(0.9);
   transition: 0.5s;
+  
 }
 .head-title {
   background-color: transparent;
@@ -55,6 +56,9 @@ header {
 .dark {
     header {
         background: var(--bg-highlight-dark);
+        button {
+            background: var(--bg-color-dark);
+        }
     }
   body {
     background: var(--bg-color-dark);
